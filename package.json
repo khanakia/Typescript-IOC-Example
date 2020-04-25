@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "nodemon -w src --ext ts --exec ts-node src/index.ts",
+    "tsnode1": "ts-node inversify_1/index.ts",
+    "tsnode2": "ts-node inversify_2/index.ts"
+  },
+  "devDependencies": {
+    "inversify": "^5.0.1",
+    "nodemon": "^2.0.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.9.0",
+    "tslint": "^6.1.1",
+    "tsyringe": "^4.1.0",
+    "typescript": "^3.8.3"
+  }
+}
